@@ -6,3 +6,4 @@ boxie/__init__.py
 boxie/__main__.py
 boxie/core.py
 boxie/version.py
+README.md
