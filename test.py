@@ -6,4 +6,5 @@ def print_console(txt):
     print(txt)
 
 
-print_console("Hello World")
+if __name__ == "__main__":
+    print_console("Hello World")

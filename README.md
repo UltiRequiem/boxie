@@ -8,6 +8,8 @@ A command line utility to put text in a box.
 pip install boxie
 ```
 
+If you are on Linux you may need to use sudo to access this globally.
+
 ## Usage
 
 ```bash
@@ -31,6 +33,8 @@ def print_console(txt):
 
 print_console("Hello World")
 ```
+
+Check [test.py](./test.py)
 
 ### Screenshot
 
