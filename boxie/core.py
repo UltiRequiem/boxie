@@ -2,9 +2,8 @@ from sys import argv
 
 
 def box_borders(func):
-    def wrapper(txt: str):
-        print(" " + "_" * (len(txt) + 1))
-        print("/" + "_" * len(txt) + "/|")
+    def wrapper(txt: str) -> None:
+        print(" " + "_" * (len(txt) + 1)) print("/" + "_" * len(txt) + "/|")
         print("|" + " " * len(txt) + "||")
         func("|" + txt + "||")
         print("|" + "_" * len(txt) + "|/")
@@ -13,11 +12,11 @@ def box_borders(func):
 
 
 @box_borders
-def print_console(txt):
+def print_console(txt: str) -> None:
     print(txt)
 
 
-def run():
+def run() -> None:
     try:
         message = argv[1]
     except IndexError:
