@@ -11,8 +11,10 @@ pip install boxie
 ## Usage
 
 ```bash
-boxie "Hello"
+boxie "Hello World"
 ```
+
+Or...
 
 ```bash
 python -m boxie "Hello World"
