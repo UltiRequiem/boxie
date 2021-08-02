@@ -1,5 +1,3 @@
-#!/bin/python
-
 from sys import argv
 
 
@@ -26,7 +24,3 @@ def run():
         message = "You have to pass at least one word!"
 
     print_console(message)
-
-
-if __name__ == "__main__":
-    run()
