@@ -3,7 +3,8 @@ from sys import argv
 
 def box_borders(func):
     def wrapper(txt: str) -> None:
-        print(" " + "_" * (len(txt) + 1)) print("/" + "_" * len(txt) + "/|")
+        print(" " + "_" * (len(txt) + 1))
+        print("/" + "_" * len(txt) + "/|")
         print("|" + " " * len(txt) + "||")
         func("|" + txt + "||")
         print("|" + "_" * len(txt) + "|/")
