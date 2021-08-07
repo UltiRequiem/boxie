@@ -1,5 +1,5 @@
 #!/usr/bin/env python
 
-from boxie.core import run
+from boxie import run
 
 run()

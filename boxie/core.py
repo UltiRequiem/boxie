@@ -3,6 +3,10 @@ from sys import argv
 
 
 def box_borders(func: Callable) -> Callable[[str], None]:
+    """
+    Boxie Decorator
+    """
+
     def wrapper(txt: str) -> None:
         txt_length = len(txt)
         print(" " + "_" * (txt_length + 1))

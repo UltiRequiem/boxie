@@ -1,6 +1,6 @@
-from boxie import box_borders
+from boxie import box_borders, boxie
 
-
+# Custom function
 @box_borders
 def print_console(txt):
     print(txt)
@@ -8,3 +8,4 @@ def print_console(txt):
 
 if __name__ == "__main__":
     print_console("Hello World")
+    boxie("Hello World")
