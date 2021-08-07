@@ -1,4 +1,4 @@
-from distutils.core import setup
+from setuptools import setup
 from boxie import __version__, __author__, __author_email__, __url__, __package_name__
 
 setup(
