@@ -1,20 +1,14 @@
 from distutils.core import setup
-from boxie import __version__, __author__, __author_email__, __url__
-
-from os import path
-
-with open(
-    path.join(path.abspath(path.dirname(__file__)), "README.rst"), encoding="utf-8"
-) as readme_file:
-    long_description = readme_file.read()
+from boxie import __version__, __author__, __author_email__, __url__, __package_name__
 
 setup(
-    name="boxie",
+    name=__package_name__,
     version=__version__,
     author=__author__,
     author_email=__author_email__,
     url=__url__,
-    long_description=long_description,
+    long_description=open("README.md").read(),
+    long_description_content_type="text/markdown",
     include_package_data=True,
     license="MIT",
     scripts=["./bin/boxie"],

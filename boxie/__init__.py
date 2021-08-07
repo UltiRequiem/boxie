@@ -1,9 +1,13 @@
 """
-This file tells Python that this is a submodule
+Boxie function and Box Border decorator
 """
+
 from .core import *
 
-__version__ = "1.0.7"
+
+# Package Configuration
+__version__ = "1.1.0"
+__package_name__ = "boxie"
 __author__ = "Eliaz Bobadilla"
 __author_email__ = "eliaz.bobadilladev@gmail.com"
 __url__ = "https://github.com/UltiRequiem/boxie"

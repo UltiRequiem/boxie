@@ -1,7 +1,8 @@
+from typing import Callable
 from sys import argv
 
 
-def box_borders(func):
+def box_borders(func: Callable) -> Callable[[str], None]:
     def wrapper(txt: str) -> None:
         txt_length = len(txt)
         print(" " + "_" * (txt_length + 1))
@@ -14,14 +15,20 @@ def box_borders(func):
 
 
 @box_borders
-def print_console(txt: str) -> None:
+def boxie(txt: str) -> None:
+    """
+    Pass the text that you want to be printed with borders
+    """
     print(txt)
 
 
 def run() -> None:
+    """
+    This is the main function
+    """
     try:
         message = argv[1]
     except IndexError:
         message = "You have to pass at least one word!"
 
-    print_console(message)
+    boxie(message)
