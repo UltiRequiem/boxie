@@ -40,7 +40,7 @@ def print_console(txt):
 print_console("Hello World")
 ```
 
-Check [test.py](./test.py)
+Check [test.py](https://github.com/UltiRequiem/boxie/blob/main/test.py)
 
 ### Screenshot
 
