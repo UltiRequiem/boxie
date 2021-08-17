@@ -19,14 +19,14 @@ def box_borders(func: Callable) -> Callable[[str], None]:
 
 
 @box_borders
-def boxie(txt: str) -> None:
+def boxier(txt: str) -> None:
     """
     Pass the text that you want to be printed with borders
     """
     print(txt)
 
 
-def run() -> None:
+def main() -> None:
     """
     This is the main function
     """
@@ -35,4 +35,4 @@ def run() -> None:
     except IndexError:
         message = "You have to pass at least one word!"
 
-    boxie(message)
+    boxier(message)

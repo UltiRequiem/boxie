@@ -14,6 +14,12 @@ A command line utility to put text in a box.
 pip install boxie
 ```
 
+To get the last version:
+
+```bash
+pip install git+https:/github.com/UltiRequiem/boxie
+```
+
 If you are on Linux you may need to use sudo to access this globally.
 
 ## Usage
@@ -31,21 +37,15 @@ python -m boxie "Hello World"
 Or in your code:
 
 ```python
-from boxie import box_borders
+from boxie import boxier
 
-@box_borders
-def print_console(txt):
-    print(txt)
-
-print_console("Hello World")
+boxier("Hello World")
 ```
-
-Check [test.py](https://github.com/UltiRequiem/boxie/blob/main/test.py)
 
 ### Screenshot
 
-![Screenshot](https://raw.githubusercontent.com/UltiRequiem/boxie/main/assets/screenshot.png)
+![Screenshot](./assets/screenshot.png)
 
 ### LICENSE
 
-[MIT](https://github.com/UltiRequiem/boxie/blob/main/LICENSE)
+This project is licensed under the [MIT](./LICENSE) License.

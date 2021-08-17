@@ -2,7 +2,7 @@
 Boxie function and Box Border decorator
 """
 
-from .core import *
+from .core import main, boxier, box_borders
 
 
 # Package Configuration
