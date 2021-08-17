@@ -47,8 +47,8 @@ boxier("Hello World")
 
 ### Screenshot
 
-![Screenshot](./assets/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/UltiRequiem/boxie/main/assets/new_screenshot.png)
 
 ### LICENSE
 
-This project is licensed under the [MIT](./LICENSE) License.
+This project is licensed under the [MIT](https://github.com/UltiRequiem/boxie/blob/main/LICENSE) License.
