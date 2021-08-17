@@ -3,6 +3,9 @@
 [![Mit License Icon](https://black.readthedocs.io/en/stable/_static/license.svg)](https://github.com/UltiRequiem/boxie/blob/main/LICENSE)
 [![Code Style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Total Lines](https://img.shields.io/tokei/lines/github.com/UltiRequiem/boxie?color=blue&label=Total%20Lines)](https://github.com/UltiRequiem/boxie)
+![CodeQL](https://github.com/UltiRequiem/boxie/workflows/CodeQL/badge.svg)
+![Pylint](https://github.com/UltiRequiem/boxie/workflows/Pylint/badge.svg)
+![Repo Size](https://img.shields.io/github/repo-size/ultirequiem/boxie?style=flat-square&label=Repo)
 [![PyPi Version](https://img.shields.io/pypi/v/boxie)](https://pypi.org/project/boxie)
 [![Total Downloads](https://pepy.tech/badge/boxie)](https://pepy.tech/project/boxie)
 
