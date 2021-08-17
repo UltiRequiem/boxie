@@ -1,0 +1,6 @@
+
+{
+  "format": "poetry run black .",
+  "lint": "poetry run pylint boxie",
+  "package":"poetry build && poetry publish"
+}

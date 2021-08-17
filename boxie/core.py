@@ -1,3 +1,6 @@
+"""
+Core of The Project
+"""
 from typing import Callable
 from sys import argv
 
