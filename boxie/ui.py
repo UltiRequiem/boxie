@@ -1,3 +1,5 @@
+"""Terminal UI helpers for boxie."""
+
 import sys
 
 import colorama
