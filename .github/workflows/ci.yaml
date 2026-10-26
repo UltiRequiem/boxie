@@ -18,4 +18,5 @@ jobs:
         with:
           python-version: "3.12"
       - run: pipx install poetry
+      - run: poetry install
       - run: poetry build
